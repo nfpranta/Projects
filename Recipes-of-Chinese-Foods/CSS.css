@@ -1,0 +1,145 @@
+body
+{
+  background-color: skyblue;
+}
+header{
+  text-align: center;
+}
+h1{
+  text-align:center;
+}
+h1 b:hover{
+  background-color: orange;
+}
+p , a b{
+  margin:8px auto auto 10px;
+}
+a:link,a:visited
+{
+  text-decoration:none;
+}
+#section1:hover li:nth-child(1)
+{
+  color:black;
+}
+a:hover{
+   background-color:lightgrey;
+   color:black;
+}
+*{
+  box-sizing:border-box; <!-- This attibute does not apply to all tags even if it is passed to body since this tag does not inherit so * is used to ensure that this attribute is applicable for all tags-->
+ }
+a:active{
+  background-color:brown;
+}
+@media (min-width:499px) and (max-width:599px)
+{
+  body
+  {
+    background-color:lightgreen;
+    color:forestgreen;
+    font-size:15px;
+  }
+  ul img
+  {
+    width:180px;
+  }
+  h1 b
+  {
+    color:forestgreen;
+  }
+  h1 b:hover{
+    background-color:limegreen;
+  }
+  a b {
+      color:green;
+    }
+  a b:hover{
+    background-color:chartreuse;
+  }
+  #roman li{
+    font-size:20px;
+    border-style:ridge;
+    border-width: thin;
+    border-color:#32CD32;
+  }
+}
+@media (min-width:600px) and (max-width:755px)
+{
+  body
+  {
+    background-color:#0000bb;
+    color:#fff;
+    font-size:18px;
+    color:white;
+  }
+  ul img
+  {
+    width:200px;
+    padding-bottom:30px;
+  }
+  h1 b
+  {
+    color:skyblue;
+  }
+  h1 b:hover{
+    background-color: blue;
+  }
+  #roman li
+  {
+    border-style:ridge;
+    border-width: thin;
+    border-color:#32CD32;
+    font-size:24px;
+  }
+  a b {
+      color:dodgerblue;
+    }
+  a b:hover{
+    background-color:cyan;
+  }
+}
+@media screen and (min-width:756px)
+{
+  body
+  {
+    background-color:darkred;
+    background-image: url(D_QpS7qU8Ac8HHc.jpg);
+    width: 100%;
+    background-size:2000px;
+    color:white;
+    font-size:22px;
+  }
+  ul img,img
+ {
+   display:none;
+ }
+  h1 b
+ {
+   color:yellow;
+ }
+ h1 b:hover{
+   background-color: orange;
+ }
+ a b
+ {
+   color:lightcoral;
+ }
+ a b:hover {
+    background-color:firebrick;
+   }
+ #roman li
+ {
+   border-style:ridge;
+   border-width: thin;
+   border-color: inherit;
+   font-size:28px;
+ }
+}
+ul img
+{
+  padding-right:50px;
+}
+ul li a {
+  color:white;
+}
